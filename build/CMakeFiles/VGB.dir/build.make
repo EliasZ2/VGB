@@ -95,6 +95,7 @@ VGB_EXTERNAL_OBJECTS =
 
 VGB: CMakeFiles/VGB.dir/main.cpp.o
 VGB: CMakeFiles/VGB.dir/build.make
+VGB: libMyLibrary.a
 VGB: CMakeFiles/VGB.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable VGB"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VGB.dir/link.txt --verbose=$(VERBOSE)

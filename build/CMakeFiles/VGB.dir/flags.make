@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/eliaszayat/Documents/AppDev/VGB/CPU
 
 CXX_FLAGSarm64 =  -arch arm64
 

@@ -1,3 +1,4 @@
 /Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles/VGB.dir
+/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles/MyLibrary.dir
 /Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles/edit_cache.dir
 /Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles/rebuild_cache.dir
