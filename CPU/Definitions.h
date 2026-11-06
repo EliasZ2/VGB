@@ -17,5 +17,10 @@ namespace Definitions{
             uint16_t reg_sp = 0;
             // Program counter
             uint16_t reg_pc = 0;
+
+            uint8_t* regMap8b[6];
+
+            Registers();
     };
+
 }

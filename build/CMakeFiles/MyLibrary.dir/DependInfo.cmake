@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/eliaszayat/Documents/AppDev/VGB/main.cpp" "CMakeFiles/MyLibrary.dir/main.cpp.o" "gcc" "CMakeFiles/MyLibrary.dir/main.cpp.o.d"
+  "/Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.cpp" "CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o" "gcc" "CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o.d"
+  "/Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.cpp" "CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o" "gcc" "CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o.d"
+  "/Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.cpp" "CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o" "gcc" "CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

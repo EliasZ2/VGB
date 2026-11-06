@@ -149,13 +149,84 @@ MyLibrary/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/build
 .PHONY : MyLibrary/fast
 
+CPU/CPU.o: CPU/CPU.cpp.o
+.PHONY : CPU/CPU.o
+
+# target to build an object file
+CPU/CPU.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o
+.PHONY : CPU/CPU.cpp.o
+
+CPU/CPU.i: CPU/CPU.cpp.i
+.PHONY : CPU/CPU.i
+
+# target to preprocess a source file
+CPU/CPU.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.i
+.PHONY : CPU/CPU.cpp.i
+
+CPU/CPU.s: CPU/CPU.cpp.s
+.PHONY : CPU/CPU.s
+
+# target to generate assembly for a file
+CPU/CPU.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.s
+.PHONY : CPU/CPU.cpp.s
+
+CPU/Definitions.o: CPU/Definitions.cpp.o
+.PHONY : CPU/Definitions.o
+
+# target to build an object file
+CPU/Definitions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o
+.PHONY : CPU/Definitions.cpp.o
+
+CPU/Definitions.i: CPU/Definitions.cpp.i
+.PHONY : CPU/Definitions.i
+
+# target to preprocess a source file
+CPU/Definitions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.i
+.PHONY : CPU/Definitions.cpp.i
+
+CPU/Definitions.s: CPU/Definitions.cpp.s
+.PHONY : CPU/Definitions.s
+
+# target to generate assembly for a file
+CPU/Definitions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.s
+.PHONY : CPU/Definitions.cpp.s
+
+CPU/Memory.o: CPU/Memory.cpp.o
+.PHONY : CPU/Memory.o
+
+# target to build an object file
+CPU/Memory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o
+.PHONY : CPU/Memory.cpp.o
+
+CPU/Memory.i: CPU/Memory.cpp.i
+.PHONY : CPU/Memory.i
+
+# target to preprocess a source file
+CPU/Memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.i
+.PHONY : CPU/Memory.cpp.i
+
+CPU/Memory.s: CPU/Memory.cpp.s
+.PHONY : CPU/Memory.s
+
+# target to generate assembly for a file
+CPU/Memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.s
+.PHONY : CPU/Memory.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VGB.dir/build.make CMakeFiles/VGB.dir/main.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -164,7 +235,6 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VGB.dir/build.make CMakeFiles/VGB.dir/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +243,6 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VGB.dir/build.make CMakeFiles/VGB.dir/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyLibrary.dir/build.make CMakeFiles/MyLibrary.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -187,6 +256,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... MyLibrary"
 	@echo "... VGB"
+	@echo "... CPU/CPU.o"
+	@echo "... CPU/CPU.i"
+	@echo "... CPU/CPU.s"
+	@echo "... CPU/Definitions.o"
+	@echo "... CPU/Definitions.i"
+	@echo "... CPU/Definitions.s"
+	@echo "... CPU/Memory.o"
+	@echo "... CPU/Memory.i"
+	@echo "... CPU/Memory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

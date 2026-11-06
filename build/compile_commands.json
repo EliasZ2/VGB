@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/eliaszayat/Documents/AppDev/VGB/build",
+  "command": "/usr/bin/clang++  -I/Users/eliaszayat/Documents/AppDev/VGB/CPU -g -arch arm64 -o CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.cpp",
+  "file": "/Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.cpp",
+  "output": "CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o"
+},
+{
+  "directory": "/Users/eliaszayat/Documents/AppDev/VGB/build",
+  "command": "/usr/bin/clang++  -I/Users/eliaszayat/Documents/AppDev/VGB/CPU -g -arch arm64 -o CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.cpp",
+  "file": "/Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.cpp",
+  "output": "CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o"
+},
+{
+  "directory": "/Users/eliaszayat/Documents/AppDev/VGB/build",
+  "command": "/usr/bin/clang++  -I/Users/eliaszayat/Documents/AppDev/VGB/CPU -g -arch arm64 -o CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.cpp",
+  "file": "/Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.cpp",
+  "output": "CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o"
+},
+{
+  "directory": "/Users/eliaszayat/Documents/AppDev/VGB/build",
+  "command": "/usr/bin/clang++  -I/Users/eliaszayat/Documents/AppDev/VGB/CPU -g -arch arm64 -o CMakeFiles/VGB.dir/main.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/main.cpp",
+  "file": "/Users/eliaszayat/Documents/AppDev/VGB/main.cpp",
+  "output": "CMakeFiles/VGB.dir/main.cpp.o"
+}
+]

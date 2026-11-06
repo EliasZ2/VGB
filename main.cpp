@@ -1,6 +1,5 @@
 #include <iostream>
-#include "Definitions.h"
-#include "Decoder.h"
+#include "CPU/CPU.h"
 
 using namespace std;
 using namespace Definitions;
@@ -10,12 +9,11 @@ int main() {
     // reset everything
     // run boot rom 
     // read first instruction
-    Registers reg{};
-    reg.reg_pc = 0x0100;
-    Decoder dec{};
-
-    dec.opcodes[0x0100];
-
-
+    CPU cpu{};
+    // read value
+    cpu.registers.reg_pc = 0x0100;
+    cpu.memory.cartridge[0x0100] = 0x06;
+    cpu.memory.cartridge[0x0101] = 0x42;
+    cpu.readOpcode();
     return 0;
 }

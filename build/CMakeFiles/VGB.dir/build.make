@@ -76,15 +76,15 @@ CMakeFiles/VGB.dir/main.cpp.o: CMakeFiles/VGB.dir/flags.make
 CMakeFiles/VGB.dir/main.cpp.o: /Users/eliaszayat/Documents/AppDev/VGB/main.cpp
 CMakeFiles/VGB.dir/main.cpp.o: CMakeFiles/VGB.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/VGB.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VGB.dir/main.cpp.o -MF CMakeFiles/VGB.dir/main.cpp.o.d -o CMakeFiles/VGB.dir/main.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/VGB.dir/main.cpp.o -MF CMakeFiles/VGB.dir/main.cpp.o.d -o CMakeFiles/VGB.dir/main.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/main.cpp
 
 CMakeFiles/VGB.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/VGB.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaszayat/Documents/AppDev/VGB/main.cpp > CMakeFiles/VGB.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaszayat/Documents/AppDev/VGB/main.cpp > CMakeFiles/VGB.dir/main.cpp.i
 
 CMakeFiles/VGB.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/VGB.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaszayat/Documents/AppDev/VGB/main.cpp -o CMakeFiles/VGB.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaszayat/Documents/AppDev/VGB/main.cpp -o CMakeFiles/VGB.dir/main.cpp.s
 
 # Object files for target VGB
 VGB_OBJECTS = \

@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MyLibrary.dir/main.cpp.o"
-  "CMakeFiles/MyLibrary.dir/main.cpp.o.d"
+  "CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o"
+  "CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o.d"
+  "CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o"
+  "CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o.d"
+  "CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o"
+  "CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o.d"
   "libMyLibrary.a"
   "libMyLibrary.pdb"
 )

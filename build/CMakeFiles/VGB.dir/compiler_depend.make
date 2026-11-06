@@ -820,13 +820,14 @@ CMakeFiles/VGB.dir/main.cpp.o: /Users/eliaszayat/Documents/AppDev/VGB/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stdint.h \
-  /Users/eliaszayat/Documents/AppDev/VGB/CPU/Decoder.h \
-  /Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.h
+  /Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.h \
+  /Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.h \
+  /Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.h
 
+
+/Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.h:
 
 /Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.h:
-
-/Users/eliaszayat/Documents/AppDev/VGB/CPU/Decoder.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stddef.h:
 
@@ -925,6 +926,8 @@ CMakeFiles/VGB.dir/main.cpp.o: /Users/eliaszayat/Documents/AppDev/VGB/main.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+/Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 

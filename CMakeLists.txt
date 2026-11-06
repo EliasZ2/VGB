@@ -9,21 +9,22 @@ PRIVATE
     main.cpp
 )
 
-add_library(MyLibrary)
+add_library(MyLibrary
+    CPU/CPU.cpp
+    CPU/Definitions.cpp
+    CPU/Memory.cpp
+)
 
 target_sources(MyLibrary
-  PRIVATE
-    main.cpp
-
   PUBLIC
     FILE_SET myHeaders
     TYPE HEADERS
     BASE_DIRS
       CPU
     FILES
-      CPU/Definitions.h,
-      CPU/Memory.h,
-      CPU/Decoder.h
+      CPU/Definitions.h
+      CPU/Memory.h
+      CPU/CPU.h
 )
 
 target_link_libraries(VGB

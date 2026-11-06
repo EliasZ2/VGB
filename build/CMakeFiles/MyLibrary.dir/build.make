@@ -72,31 +72,63 @@ include CMakeFiles/MyLibrary.dir/flags.make
 CMakeFiles/MyLibrary.dir/codegen:
 .PHONY : CMakeFiles/MyLibrary.dir/codegen
 
-CMakeFiles/MyLibrary.dir/main.cpp.o: CMakeFiles/MyLibrary.dir/flags.make
-CMakeFiles/MyLibrary.dir/main.cpp.o: /Users/eliaszayat/Documents/AppDev/VGB/main.cpp
-CMakeFiles/MyLibrary.dir/main.cpp.o: CMakeFiles/MyLibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyLibrary.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyLibrary.dir/main.cpp.o -MF CMakeFiles/MyLibrary.dir/main.cpp.o.d -o CMakeFiles/MyLibrary.dir/main.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/main.cpp
+CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o: CMakeFiles/MyLibrary.dir/flags.make
+CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o: /Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.cpp
+CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o: CMakeFiles/MyLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o -MF CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o.d -o CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.cpp
 
-CMakeFiles/MyLibrary.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaszayat/Documents/AppDev/VGB/main.cpp > CMakeFiles/MyLibrary.dir/main.cpp.i
+CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.cpp > CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.i
 
-CMakeFiles/MyLibrary.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaszayat/Documents/AppDev/VGB/main.cpp -o CMakeFiles/MyLibrary.dir/main.cpp.s
+CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaszayat/Documents/AppDev/VGB/CPU/CPU.cpp -o CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.s
+
+CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o: CMakeFiles/MyLibrary.dir/flags.make
+CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o: /Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.cpp
+CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o: CMakeFiles/MyLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o -MF CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o.d -o CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.cpp
+
+CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.cpp > CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.i
+
+CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaszayat/Documents/AppDev/VGB/CPU/Definitions.cpp -o CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.s
+
+CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o: CMakeFiles/MyLibrary.dir/flags.make
+CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o: /Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.cpp
+CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o: CMakeFiles/MyLibrary.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o -MF CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o.d -o CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o -c /Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.cpp
+
+CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.cpp > CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.i
+
+CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eliaszayat/Documents/AppDev/VGB/CPU/Memory.cpp -o CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.s
 
 # Object files for target MyLibrary
 MyLibrary_OBJECTS = \
-"CMakeFiles/MyLibrary.dir/main.cpp.o"
+"CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o" \
+"CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o" \
+"CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o"
 
 # External object files for target MyLibrary
 MyLibrary_EXTERNAL_OBJECTS =
 
-libMyLibrary.a: CMakeFiles/MyLibrary.dir/main.cpp.o
+libMyLibrary.a: CMakeFiles/MyLibrary.dir/CPU/CPU.cpp.o
+libMyLibrary.a: CMakeFiles/MyLibrary.dir/CPU/Definitions.cpp.o
+libMyLibrary.a: CMakeFiles/MyLibrary.dir/CPU/Memory.cpp.o
 libMyLibrary.a: CMakeFiles/MyLibrary.dir/build.make
 libMyLibrary.a: CMakeFiles/MyLibrary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMyLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/eliaszayat/Documents/AppDev/VGB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libMyLibrary.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/MyLibrary.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyLibrary.dir/link.txt --verbose=$(VERBOSE)
 
