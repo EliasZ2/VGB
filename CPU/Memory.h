@@ -40,4 +40,6 @@ class MemMap{
         uint8_t interrupt_enable = 0;
 
         uint8_t readByte(uint16_t address);
+
+        void writeByte(uint16_t address, uint8_t value);
 };

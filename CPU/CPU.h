@@ -19,7 +19,8 @@ class CPU {
         void readOpcode();
 
         // Instruction handlers
-        void LDr();
+        void LDrn8b();
+        void LDrrnn();
 
         CPU();
 

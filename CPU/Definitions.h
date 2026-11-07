@@ -10,16 +10,19 @@ namespace Definitions{
             uint8_t reg_e = 0;
             uint8_t reg_h = 0;
             uint8_t reg_l = 0;
-
             // Accumulator & Flags - bottom 8 bits untouchable
-            uint16_t reg_af = 0;
+            uint8_t reg_a = 0;
+            uint8_t reg_f = 0;
             // Stack pointer 
             uint16_t reg_sp = 0;
             // Program counter
             uint16_t reg_pc = 0;
 
-            uint8_t* regMap8b[6];
+            uint8_t* regMap8b[7];
 
+            // 16 bit operations
+            void loadRegister_16b(uint8_t high, uint8_t low, uint16_t value);
+            
             Registers();
     };
 
